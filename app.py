@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-model = joblib.load("F:/Its Starting/1. House Price Prediction/Model/house_price_model.pkl")
+model = joblib.load("house_price_model.pkl")
 
 @app.route('/predict', methods=['POST'])
 def predict():
