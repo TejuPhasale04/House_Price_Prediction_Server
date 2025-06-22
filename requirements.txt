@@ -4,5 +4,4 @@ pandas
 joblib
 flask-cors
 numpy
-os
 gunicorn
